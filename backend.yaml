@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: hetgajera01/wanderlust-backend:31
+          image: hetgajera01/wanderlust-backend:40
 
           envFrom:
            - secretRef:

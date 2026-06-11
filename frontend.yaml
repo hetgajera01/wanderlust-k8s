@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: hetgajera01/wanderlust-frontend:33
+          image: hetgajera01/wanderlust-frontend:40
           envFrom:
            - secretRef:
               name: frontend-secret
